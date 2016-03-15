@@ -1,0 +1,170 @@
+.intro .left-big,
+.intro .right,
+.benefits ul,
+.wider,
+.closer,
+.half {
+    width: 100%;
+}
+
+.intro .left-big img.ssplanet {
+    margin-right: 0;
+}
+
+.intro .left-big img.planets {
+    margin-right: 15%;
+}
+
+header nav ul {
+    display: none;
+}
+
+.benefits {
+    text-align: center;
+}
+
+.benefits ul {
+    text-align: justify;
+    padding-left: 0;
+}
+
+.benefits .eye {
+    width: 100%;
+    text-align: center;
+}
+
+.benefits .eye img {
+    width: 40%;
+}
+
+.closer.with-image,
+.wider.with-image,
+.half.with-image {
+    display: block;
+    text-align: center;
+}
+
+.closer img,
+.wider img {
+    width: 80%;
+}
+
+.note {
+    padding-left: 0;
+}
+
+div.enter {
+    margin-top: 3em;
+}
+
+p.enter {
+    display: none;
+}
+
+.mobile-invisible {
+    display: none !important;
+}
+
+.big-bang {
+    margin-top: 1.5em;
+}
+
+@media (min-height: 400px) {
+    header img.headline {
+        width: 80%;
+    }
+}
+
+@media (max-height: 400px) {
+    .closer img,
+    .wider img,
+    .half img {
+        width: 40%;
+    }
+
+    .benefits .eye img {
+        width: 25%;
+    }
+}
+
+@media (max-width: 750px) {
+    span.enter {
+        font-size: 180%;
+    }
+
+    .big {
+        font-size: 700%;
+    }
+}
+
+@media (max-width: 700px) {
+    span.enter {
+        font-size: 150%;
+    }
+
+    nav.who .menu-headline {
+        font-size: 550%;
+    }
+}
+
+@media (max-width: 650px) {
+    nav.who .menu-headline {
+        font-size: 420%;
+    }
+
+    .big {
+        font-size: 550%;
+    }
+
+    footer .contact {
+        display: inline-block;
+        margin: auto;
+        position: static;
+        text-align: left;
+    }
+
+    footer .output-links {
+        display: block;
+        margin-top: 2em;
+        text-align: center;
+        position: static;
+    }
+
+    footer .lajka {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    nav.who .menu-headline {
+        font-size: 340%;
+    }
+
+    .big {
+        font-size: 430%;
+    }
+
+    .mobile-new-line {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    nav.who .menu-headline {
+        font-size: 280%;
+    }
+
+    h2.with-line, h3 {
+        font-size: 180%;
+    }
+
+    .big {
+        font-size: 300%;
+    }
+
+    @media (min-height: 200px) {
+        header img.headline {
+            width: 80%;
+        }
+    }
+}

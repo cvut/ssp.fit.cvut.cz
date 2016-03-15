@@ -1,0 +1,535 @@
+@font-face {
+    font-family: FlorenceRegular;
+    src: url('../font/Florence-Regular.otf');
+}
+
+@font-face {
+    font-family: KGHappySolid;
+    src: url('../font/KGHAPPYSolid.ttf');
+}
+
+@font-face {
+    font-family: KGHowManyTimes;
+    src: url('../font/KGHowManyTimes.ttf');
+}
+
+html, body {
+    height: 100%;
+    text-align: center;
+    font-family: Calibri, Tahoma, Arial;
+    -webkit-font-smoothing: antialiased;
+    font-size: large;
+}
+
+h2, h3, .menu-headline {
+    font-size: 280%;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0.7em;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+h2, nav .menu-headline {
+    font-family: KGHappySolid;
+    color: #EDAC00;
+    text-transform: uppercase;
+
+}
+
+h3, .title {
+    font-family: FlorenceRegular, KGHowManyTimes;
+    margin-bottom: 18px;
+}
+
+h4 {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.no-select, img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+article {
+    clear: both;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted #FFD243;
+}
+
+dfn {
+    font-style: normal;
+    font-weight: 600;
+    display: block;
+}
+
+menu, ol, ul {
+    padding: 0 0 0 1.5em;
+    margin-top: 0.5em;
+}
+
+li {
+    line-height: 1.4;
+    margin-bottom: 0.5em;
+}
+
+::selection {
+    background: #FFD243;
+}
+
+::-moz-selection {
+    background: #FFD243;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.center-aligned {
+    text-align: center;
+    display: block;
+}
+
+.right-aligned {
+    text-align: right;
+    display: block;
+    background-position: right;
+}
+
+.left-aligned {
+    text-align: left;
+    display: block;
+    background-position: left;
+}
+
+div#all {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+}
+
+header h1 {
+    display: none;
+}
+
+header img.background, footer img.background {
+    width: 100%;
+    height: auto;
+}
+
+header img.headline {
+    width: 40%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+header .black {
+    background: #000000;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    display: block;
+    height: 3em;
+    padding-top: 2em;
+    text-align: right;
+}
+
+header nav ul li a {
+    font-family: FlorenceRegular, KGHowManyTimes;
+    color: #FFFFFF;
+    font-size: 150%;
+}
+
+header nav img.ico {
+    width: 3em;
+    margin-right: 2em;
+}
+
+header nav div.languages {
+    float: left;
+    margin-left: 2em;
+}
+
+header nav .languages img.ico {
+    width: auto;
+    height: 1.3em;
+    margin-right: 0;
+}
+
+header nav .languages,
+header nav .languages a {
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+
+header nav .languages a:hover {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+header nav .languages a img {
+    width: auto;
+    height: 1em;
+}
+
+.divider {
+    vertical-align: bottom;
+}
+
+section#content {
+    margin: -10% 5%;
+    margin-bottom: 0;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.intro .left-big {
+    width: 70%;
+    float: left;
+}
+
+.intro .left-big .margin {
+    margin-top: 40%;
+}
+
+.intro .left-big p {
+    margin-right: 1.5em;
+    display: table;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    line-height: 2;
+}
+
+.intro .right {
+    width: 30%;
+    float: right;
+    position: relative;
+    z-index: auto;
+}
+
+.intro img {
+    margin: 0 1.5em;
+}
+
+.intro .left-big img.ssplanet {
+    width: 55%;
+}
+
+.intro .left-big img.planets {
+    width: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    clear: right;
+}
+
+div.benefits {
+    padding-top: 2em;
+    clear: both;
+}
+
+.benefits .eye {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.benefits .eye img,
+.half .satellite,
+.half .satellite img {
+    width: 100%;
+    margin: 0 0;
+}
+
+.benefits ul {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
+    padding-left: 4%;
+}
+
+nav .menu-headline {
+    font-size: 900%;
+    margin-top: 0.6em;
+}
+
+nav.who ul {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+nav.who ul li {
+    display: inline-block;
+    font-family: KGHappySolid;
+    font-size: 115%;
+    text-transform: uppercase;
+    margin: 0 2%;
+}
+
+nav.who ul li a {
+    color: #edac00;
+}
+
+nav.who ul li a:hover {
+    color: #FFD243;
+}
+
+h2.with-line {
+    margin-top: 1.5em;
+}
+
+h2.with-line {
+    position: relative;
+    z-index: -1;
+    line-height: 1.4;
+    font-size: 200%;
+}
+
+h2.with-line.right-aligned .white {
+    padding-left: 0.4em;
+}
+
+h2.with-line.left-aligned .white {
+    padding-right: 0.4em;
+}
+
+h2.big-bang {
+    margin-bottom: 1em;
+}
+
+.with-line .dashed-line {
+    position: absolute;
+    bottom: 0.7em;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px dashed;
+    z-index: -1;
+}
+
+.white {
+    background: #FFFFFF;
+}
+
+.triangles {
+    height: 1em;
+    background-image: url("../img/triangles.svg");
+    background-size: 4em;
+    background-repeat: no-repeat;
+}
+
+.closer {
+    display: inline-block;
+    width: 40%;
+    vertical-align: bottom
+}
+
+.closer.middle, .wider.middle {
+    vertical-align: middle;
+}
+
+.wider {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 60%;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.wider.top {
+    vertical-align: top;
+}
+
+.closer.pull-right {
+    margin-left: 10%;
+}
+
+.closer.pull-left {
+    margin-right: 10%;
+}
+
+.closer img, .wider img {
+    width: 100%;
+}
+
+.half {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.half img {
+    width: 100%;
+}
+
+.note {
+    padding-left: 7em;
+    padding-top: 3em;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.table {
+    width: 100%;
+    display: table;
+    font-size: 0;
+}
+
+.table > * {
+    font-size: large;
+}
+
+.title-note {
+    margin: 0 1em;
+    font-weight: 600;
+}
+
+.big {
+    font-size: 1000%;
+    font-family: KGHappySolid;
+}
+
+.orange {
+    color: #edac00;
+}
+
+a.enter img {
+    width: 3em;
+    vertical-align: text-top;
+}
+
+a.enter:hover, a.enter:hover span {
+    text-decoration: underline;
+}
+
+a.enter {
+    display: inline-block;
+}
+
+a.enter .btn.enter {
+    display: inline-block;
+    width: 2em;
+    height: 1em;
+    vertical-align: bottom;
+    background: url("../img/enter.svg") no-repeat bottom;
+    background-size: 100%;
+}
+
+a.enter:active .btn.enter {
+    background: url("../img/enteractive.svg") no-repeat bottom;
+    background-size: 100%;
+}
+
+div.enter {
+    display: inline-block;
+    margin: auto;
+}
+
+span.enter {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+p.enter {
+    margin-top: 0;
+    text-align: left;
+}
+
+footer {
+    margin-top: 5em;
+}
+
+footer .output-links {
+    position: absolute;
+    left: 20%;
+    bottom: 75%;
+}
+
+footer .contact {
+    position: absolute;
+    bottom: 75%;
+    right: 10%;
+    text-align: left;
+}
+
+footer .lajka {
+    position: absolute;
+    bottom: 52%;
+    left: 33%;
+    font-size: 180%;
+}
+
+@media (min-width: 1200px) {
+    .bigger {
+        width: 120%;
+    }
+}
+
+@media (max-width: 1000px) {
+    nav .menu-headline {
+        font-size: 800%;
+    }
+
+    nav.who ul li {
+        font-size: 105%;
+    }
+}
+
+@media (max-width: 910px) {
+    nav.who .menu-headline {
+        font-size: 600%;
+    }
+
+    nav.who ul li {
+        display: block;
+        font-size: 110%;
+    }
+
+    .big {
+        font-size: 800%;
+    }
+}
