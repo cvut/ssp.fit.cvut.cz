@@ -24,10 +24,10 @@
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
             a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
+                m = s.getElementsByTagName(o)[0];
             a.async = 1;
             a.src = g;
             m.parentNode.insertBefore(a, m)
@@ -558,6 +558,37 @@
                 <span class="dashed-line"></span>
                 <span class="white">Big bang!</span>
             </h2>
+            <div class="center-aligned">
+                <h3 class="inline big-bang">
+                    We are still expanding
+                </h3>
+            <span class="inline title-note">
+                {number of <span class="mobile-invisible">connected </span>students : <span class="mobile-invisible">registered </span>companies}
+            </span>
+                </div>
+
+            <div class="center-aligned">
+                <span class="inline big black" id="numberOfStudents">
+                    ?
+                </span>
+                <span class="inline big orange">
+                    :
+                </span>
+                <span class="inline big black" id="numberOfPartners">
+                    ?
+                </span>
+            </div>
+            <script type="text/javascript">
+                function findPublicInfo(data) {
+                    var numberOfStudentsElement = document.getElementById("numberOfStudents");
+                    var numberOfPartnersElement = document.getElementById("numberOfPartners");
+                    numberOfStudentsElement.innerHTML = data.studentCount;
+                    numberOfPartnersElement.innerHTML = data.partnersCount;
+                }
+            </script>
+            <script type="application/javascript"
+                    src="https://is.fit.cvut.cz/delegate/sspservices/publicinfo/jsonp?callback=findPublicInfo">
+            </script>
 
             <div class="center-aligned">
                 <div class="margin-top enter">
