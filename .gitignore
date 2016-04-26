@@ -1,1 +1,3 @@
+.idea/
 .travis/deploy-key
+*.iml
