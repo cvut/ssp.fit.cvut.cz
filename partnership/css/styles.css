@@ -1,0 +1,262 @@
+body, html {
+    text-align: justify;
+    font-size: large;
+    font-family: Calibri, Helvetica, Verdana, sans-serif;
+}
+
+.all {
+    max-width: 1200px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 5%;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Ubuntu Light", Calibri, Helvetica, Verdana;
+}
+
+h1 {
+    margin: 0;
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    color: #808080;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    display: block;
+    font-size: 150%;
+    color: #d6d6d6;
+    margin-bottom: -0.3em;
+}
+
+.all > .wrapper > header > img.logo {
+    position: absolute;
+    left: 39%;
+    bottom: -15px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 22%;
+    z-index: 1;
+}
+
+.wrapper header {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    table-layout: fixed;
+}
+
+.wrapper section {
+    padding: 0 2%;
+}
+
+section.half {
+    display: table-cell;
+    width: 50%;
+}
+
+section.half.left {
+    border-right: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    border-right: 2px solid #eaeaea;
+    padding-right: 4%;
+}
+
+section.half.right {
+    border-left: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    padding-left: 4%;
+}
+
+section.half h2 {
+    margin: -2px -5%;
+    padding: 3% 5% 2%;
+    color: #ffffff;
+    background: #808080;
+    font-size: 30px;
+}
+
+section.half.left h2 {
+    text-align: right;
+    padding-right: 29%;
+}
+
+section.half.left > header {
+    padding-right: 24%;
+}
+
+section.half.right h2 {
+    padding-left: 29%;
+    text-align: left;
+}
+
+section.half.right > header {
+    padding-left: 24%;
+}
+
+section.both {
+    border-top: none;
+    border-bottom: none;
+}
+
+section.both h3 {
+    text-align: center;
+}
+
+.cooperation-summary {
+    text-align: center;
+}
+
+.cooperation-summary > div {
+    display: inline-block;
+    width: 29%;
+    margin: 1%;
+    border: 3px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.cooperation-summary .gold {
+    border-color: #edac00;
+
+}
+
+.cooperation-summary .silver {
+    border-color: #808080;
+}
+
+.cooperation-summary .bronze {
+    border-color: #d5aa58;
+}
+
+.cooperation-summary h4 {
+    margin: 0;
+    padding: 10px 3%;
+    color: #ffffff;
+}
+
+.cooperation-summary .gold h4 {
+    background: #edac00;
+}
+
+.cooperation-summary .silver h4 {
+    background: #808080;
+}
+
+.cooperation-summary .bronze h4 {
+    background: #d5aa58;
+}
+
+.cooperation-summary .label {
+    display: block;
+    margin: 18px 0 0;
+}
+
+.cooperation-summary .value {
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.cooperation-summary .gold .value {
+    color: #edac00;
+}
+
+.cooperation-summary .silver .value {
+    color: #808080;
+}
+
+.cooperation-summary .bronze .value {
+    color: #d5aa58;
+}
+
+.all > .wrapper > .content {
+    display: table;
+    width: 100%;
+}
+
+.all > .wrapper > .content section {
+    padding-top: 30px;
+}
+
+.expandable {
+    display: none;
+}
+
+.expand-controller {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.half h3 {
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #808080;
+    font-size: 30px;
+}
+
+.partnership {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 2px solid;
+}
+
+.partnership h4 {
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    margin: 0;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    color: #808080;
+    transition: all 0.7s;
+}
+
+.partnership .expandable {
+    padding: 0 20px 10px;
+}
+
+.partnership.gold {
+    border-color:  #edac00;
+}
+
+.partnership.silver {
+    border-color: #808080;
+}
+
+.partnership.bronze {
+    border-color: #d5aa59;
+}
+
+.partnership.gold.expanded h4,
+.partnership.gold h4:hover {
+    background-color: #edac00;
+    color: #ffffff;
+}
+
+.partnership.silver.expanded h4,
+.partnership.silver h4:hover {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.partnership.bronze.expanded h4,
+.partnership.bronze h4:hover {
+    background-color: #d5aa59;
+    color: #ffffff;
+}
