@@ -33,6 +33,10 @@ h1 span {
     margin-bottom: -0.3em;
 }
 
+.all > header > img.logo {
+    display: none;
+}
+
 .all > .wrapper > header > img.logo {
     position: absolute;
     left: 39%;
@@ -48,7 +52,7 @@ h1 span {
     margin-bottom: 15px;
 }
 
-.wrapper {
+.all > .wrapper {
     border: 2px solid #eaeaea;
     border-radius: 10px;
     table-layout: fixed;
