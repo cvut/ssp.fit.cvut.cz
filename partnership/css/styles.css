@@ -16,6 +16,20 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 
+a {
+    color: #505050;
+    -webkit-transition: color 0.7s;
+    -moz-transition: color 0.7s;
+    -ms-transition: color 0.7s;
+    -o-transition: color 0.7s;
+    transition: color 0.7s;
+}
+
+a:hover {
+    color: #808080;
+    text-decoration: none;
+}
+
 h1 {
     margin: 0;
     display: block;
