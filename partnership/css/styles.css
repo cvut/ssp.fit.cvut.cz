@@ -47,6 +47,16 @@ h1 span {
     margin-bottom: -0.3em;
 }
 
+h2 {
+    color: #808080;
+    font-size: 170%;
+    margin-bottom: 0;
+}
+
+strong {
+    color: #808080;
+}
+
 .all > header > img.logo {
     display: none;
 }
@@ -70,6 +80,7 @@ h1 span {
     border: 2px solid #eaeaea;
     border-radius: 10px;
     table-layout: fixed;
+    padding-bottom: 30px;
 }
 
 .wrapper section {
