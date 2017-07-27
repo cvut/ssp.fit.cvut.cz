@@ -9,17 +9,18 @@
 
     <link rel="apple-touch-icon" href="img/appletouchicon.png"/>
     <link href="img/favicon.png" rel="icon" type="image/png"/>
-    <link rel="stylesheet" href="css/normalize.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Cairo" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/dropdown.css">
-    <link rel="stylesheet" href="css/custom-desk.css" media="(min-width: 800px)">
-    <link rel="stylesheet" href="css/custom-mob.css" media="(max-width: 799px)">
+
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="js/Hyphenator.js" type="text/javascript"></script>
     <script type="text/javascript">
         Hyphenator.run();
     </script>
+
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -42,24 +43,104 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
+<!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">SSP - Spolupráce s průmyslem</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nb">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="nb">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="#">Registrace studenta</a></li>
+                <li><a href="#">Registrace firmy</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">EN</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="header container-fluid">
+    <div class="text">
+        <h1>Studuj s praxí</h1>
+        <h2>Spolupracuj se SSP</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <h2>Spolupráce s průmyslem</h2>
+        <p>Cílem portálu Spolupráce s průmyslem (SSP) je umožnit efektivní a všestranně prospěšnou spolupráci
+            průmyslových
+            partnerů (společností) s univerzitním pracovištěm, zejména pak s jeho studenty. Přináší mnoho výhod, které
+            můžete využívat jako průmyslový partner, student nebo učitel.</p>
+    </div>
 
-<script src="js/jquery.min.js"></script>
-<script>
-    $(function () {
-        $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    <div class="row">
+        <h2>Pro studenty</h2>
+        <p>Mnoho studentů během studia pracuje, čímž získává potřebnou praxi. Stinnou stránkou je, že jejich práce
+            většinou
+            není nijak provázána s výukou ve škole, přestože se mnohdy vyučovaných předmětů týká. Díky portálu
+            Spolupráce s
+            průmyslem lze však projektová výuka a závěrečné práce realizovat ve spolupráci se společnostmi tak, aby byly
+            výspupy přímo použitelné zadávající společností a zároveň započítané do souvisejících předmětů.</p>
+        <button type="button" href="#" class="btn btn-default btn-lg">Registrace studenta</button>
+    </div>
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-</script>
+    <div class="row">
+        <h2>Pro firmy</h2>
+        <p>Podniky si mohou na univerzitě najít podporu při řešení složitých problémů, ale zároveň si zajistit a
+            formovat
+            své budoucí zaměstnance. Díky našemu portálu SSP se mohou studenti podílet již při studiu na zajímavých
+            projektech z praxe, rozvíjet svoje dovednosti a postupně si osvojovat technologie a postupy využívané v
+            praxi.</p>
+        <button type="button" href="#" class="btn btn-default btn-lg">Registrace firmy</button>
+    </div>
+</div>
+<div class="footer">
+    <div class="container-fluid">
+        <div class="container info">
+            <h2>Kontakt</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <dl>
+                        <dt>Spolupráce s průmyslem</dt>
+                        <dd>Fakulta informačních technologií ČVUT</dd>
+                        <dt>Ulice</dt>
+                        <dd>Thákurova 9</dd>
+                        <dt>Město</dt>
+                        <dd>160 00, Praha 6 - Dejvice</dd>
+                    </dl>
+                </div>
+                <div class="col-sm-4">
+                    <dl>
+                        <dt>Ing. Lucie Bílá</dt>
+                        <dd>Referentka</dd>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:lucie.bila@fit.cvut.cz?Subject=Spolupráce%20s%20průmyslem" target="_top">lucie.bila@fit.cvut.cz</a>
+                        </dd>
+                        <dt>Telefon</dt>
+                        <dd><a href="tel:+420123456789">+420 123 456 789</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="container">
+                &copy; 2017 České vysoké učení technické v Praze<br>Vyrobilo a provozuje Oddělení pro rozvoj ČVUT FIT
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<!--jQuery + Bootstrap-->
+<script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 </html>
